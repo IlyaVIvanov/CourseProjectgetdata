@@ -68,6 +68,7 @@ newnames <- sub("\\(\\)", "", newnames)
 newnames <- sub("f","Fourier", newnames)
 newnames <- sub ("tB","RawSignalB", newnames)
 newnames <- sub ("tG","RawSignalG", newnames)
+newnames <- sub ("BodyGy","Gy", newnames)
 colnames(smallframe) <- newnames
 
 
