@@ -19,7 +19,7 @@ Script downloads the [UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/get
 
 ##### 4. Appropriately labels the data set with descriptive variable names. 
 
-Names were edited using 'sub' function to the best of my aesthetic judgement.
+Names were edited using 'sub' function to the best of my aesthetic judgement: redundant "Body" cleaned up, names expanded to be more understandable
 
 ##### 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
