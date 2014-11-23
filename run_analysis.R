@@ -68,7 +68,7 @@ newnames <- sub("\\(\\)", "", newnames)
 newnames <- sub("f","Fourier", newnames)
 newnames <- sub ("tB","RawSignalB", newnames)
 newnames <- sub ("tG","RawSignalG", newnames)
-newnames <- sub ("BodyGy","Gy", newnames)
+newnames <- sub ("BodyGy","Gy", newnames) #there is no gravity component to gyroscope signal so "Body" is redundant here
 colnames(smallframe) <- newnames
 
 
